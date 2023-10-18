@@ -14,15 +14,15 @@
 	<meta charset="UTF-8">
 	<!-- I change the <script src = > file from the head to the end of the body element to help the site load faster-->
 	<!-- Open Graph property meta (Facebook, Linkedin) -->
-	<meta property="og:title" content="Nina Carducci - Photographe à Bordeaux" />
-	<meta property="og:type" content="Website" />
+	<meta property="og:title" content="Nina Carducci - Photographe à Bordeaux">
+	<meta property="og:type" content="Website">
 	<meta property="og:description"
-		content="Explorez l'expertise de Nina Carducci, photographe renommée, pour sublimer vos moments spéciaux : mariages, concerts, portraits personnels et professionnels de grande qualité." />
+		content="Explorez l'expertise de Nina Carducci, photographe renommée, pour sublimer vos moments spéciaux : mariages, concerts, portraits personnels et professionnels de grande qualité.">
 
-	<meta property="author" content="Nina Carducci" />
+	<meta property="author" content="Nina Carducci">
 	<!-- I converti the .png extention to .avif that are more suiteable in nowadays -->
 	<meta property="og:image:secure_url"
-		 content="https://github.com/ManuelFrancisco42/Nina-Carducci.git/assets/images/nina.avif" /> 
+		 content="https://github.com/ManuelFrancisco42/Nina-Carducci.git/assets/images/nina.avif"> 
 	<meta property="og:image:type" content="image/avif" />
 </head>
 <body>
@@ -69,9 +69,9 @@
 	</div>
 </header>
 
-<section id="about">
+<section id="about" itemscope itemtype="https://www.schema.org/Person">
 	<div class="picture left">
-		<img src="./assets/images/nina.png" alt="Le portrait de Nina Carducci"/>
+		<img src="./assets/images/nina.png"  itemprop="image" alt="Le portrait de Nina Carducci"/>
 	</div>
 	<div id="about-me" itemprop="description">
 		<h2 class="about-me__title">A propos de moi</h2>
@@ -80,34 +80,34 @@
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
 </section>
-<section role="catalogue"  id="gallery">
+<section id="gallery">
 	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg"/>
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg"/>
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg" alt="Une salle de concert comble, baignée dans une lueur ambrée, sous un vaste plafond en métal étincelant."/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="Le portrait d'un homme d'affaires revêtu d'un élégant costume."/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg" alt="Une représentation d'une réunion empreinte d'une atmosphère détendue, où deux femmes s'adonnent à des éclats de rire. " />
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg" alt=  "De jeunes époux unissent leurs destins en liant leurs mains. " />
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" alt="Le portrait d'un homme qui, les yeux clos, se laisse emporter. " />
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" alt= " Deux jeunes mariés avancent d'un pas décidé en direction de la caméra." />
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg" alt= " Le portrait d'une femme aux lunettes, le regard dirigé vers le bas." />
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg" alt= "Un homme entonne un chant au milieu d'une brume aux couleurs tricolores (bleu, blanc, rouge), tout en dénombrant sur ses doigts. " />
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg" alt= " Une femme éclate de rire en réponse à la plaisanterie de sa collègue." />
 		</div>
 	</div>
 	<div class="quote">
 		<figure>
 			<blockquote>
-				<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
+				<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</p>
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
 	</div>
 </section>
-<section role="services" id="services">
+<section  id="services">
 	<h2 class="title">Mes services</h2>
 	<div class="container">
-		<article class="service">
+		<article itemscope itemtype="http://schema.org/Offer" class="service">
 			<div class="service__description">
 				<h3 itemprop="name">Shooting photo</h3>
 				<p itemprop="description">Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
@@ -118,7 +118,7 @@
 			</div>
 
 		</article>
-		<article class="service">
+		<article itemscope itemtype="http://schema.org/Offer" class="service">
 			<div class="service__description">
 				<h3 itemprop="name">Retouches</h3>
 				<p itemprop="description">Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
@@ -128,7 +128,7 @@
 				<span>2 AR par photo</span>
 			</div>
 		</article>
-		<div class="service">
+		<article itemscope itemtype="http://schema.org/Offer" class="service">
 			<div class="service__description">
 				<h3 itemprop="name">Album photos</h3>
 				<p itemprop="description">Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
@@ -137,30 +137,30 @@
 				<h4>400<span itemprop="priceCurrency" content="EUR">€</span>/album A4</h4>
 				<span>30 pages recto/verso</span>
 			</div>
-		</div>
+		</article>	
 	</div>
 </section>
 <div class="quote">
 	<figure>
 		<blockquote>
-			<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+			<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
 		</blockquote>
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
 </div>
-<div role="contact" id="contact">
+<div id="contact">
 	<div class="container">
 		<div class="form-container">
 			<h2>Une question ? Une demande de devis ?</h2>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-			<form action="" method="post">
+			<form action="process-form.php" method="post">
 				<label for="nom">Nom</label>
 				<input type="text" name="nom" id="nom">
 				<label for="email">Email</label>
 				<input type="email" name="email" id="email">
 				<label for="message">Message</label>
 				<textarea name="message" id="message" cols="30" rows="10"></textarea>
-				<input aria-label="submit" type="submit" value="Envoyer" />
+				<input aria-label="submit" type="submit" value="Envoyer">
 			</form>
 		</div>
 		<div class="picture right">
